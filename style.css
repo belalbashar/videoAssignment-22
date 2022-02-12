@@ -4,11 +4,20 @@ body{
 img{
     max-width: 100%;
 }
-
+a{
+	text-decoration: none;
+}
 /* Header-Section */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    box-shadow: 2px 0 6px rgba(90, 90, 90, 0.281);
+}
 
-.btn-right{}
-.btn-right a{}
 .logo span {
 	font-size: 24px;
 	font-weight: 500;
@@ -37,6 +46,7 @@ img{
     padding: 200px 0;
     position: relative;
     z-index: 1;
+    margin-top: 50px;
 }
 .slider-section::after{
     content: "";
@@ -45,7 +55,7 @@ img{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 0, 0, 0.486);
     z-index: -1;
 }
 .slider-content{}
@@ -90,8 +100,7 @@ img{
 	padding: 70px 0;
 	background: #fff;
 }
-.number-counter{}
-.number-counter h1 {
+
 	font-size: 56px;
 }
 .number-counter p {
@@ -119,8 +128,7 @@ img{
 
 /* Target Section */
 
-.target{
-}
+
 .target-title h1 {
 	font-size: 44px;
 	font-weight: 400;
@@ -147,7 +155,10 @@ img{
 	height: 100%;
 	width: auto !important;
 	max-width: inherit;
-	margin-left: -57px;
+	margin-left: -70px;
+}
+.pro img{
+	margin-left: -7px;
 }
 .target-box-text {
 	width: 60%;
@@ -158,7 +169,7 @@ img{
 	font-weight: 500;
 	padding: 16px 0;
 }
-.target-box-text h1{}
+
 .target-box-text p {
 	color: rgb(134, 134, 134);
 	font-size: 14px;
@@ -167,7 +178,6 @@ img{
 
 /* Image overly section */
 
-.image{}
 .look h2 {
 	font-size: 46px;
 	font-weight: 400;
@@ -201,7 +211,6 @@ img{
 .plan{
     background-color: #f7f9ff;
 }
-.plan-content{}
 .plan-content h1 {
 	font-size: 54px;
 	font-weight: 400;
@@ -292,7 +301,7 @@ img{
 	top: 88px;
 	left: 613px;
 }
-.id-hero{}
+
 .id-hero img {
 	border-radius: 50%;
 	margin-left: 75px;
@@ -353,4 +362,81 @@ img{
 .team-box a:hover{
 	background-color: #000;
 	color: #fff;
+}
+
+/* contact form */
+
+.contact-form{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	padding: 35px;
+}
+.d-input {
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 300;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	border: 1px solid #dddddda1;
+	/* color: #676767676; */
+}
+.k{
+	font-size: 24px;
+}
+.d-input:focus{
+	box-shadow: 3px 3px 27px -3px #6278df;
+	border-color: #6278df;
+}
+.s-btn {
+	background: #6278df;
+	color: #fff;
+	padding: 15px 32px;
+	font-weight: 600;
+	font-size: 20px;
+	border-radius: 6px;
+	border: 2px solid transparent;
+	transition: .5s;
+}
+.s-btn:hover{
+	background-color: transparent;
+	color: #6278df;
+	box-shadow: 3px 3px 27px -3px #6278df;
+	border: 2px solid #6278df;
+}
+.btn1 {
+	text-decoration: none;
+	color: #5ba533;
+	font-size: 21px;
+	font-weight: 600;
+	border: 2px solid #5ba533;
+	padding: 11px 25px;
+	display: inline-block;
+	border-radius: 6px;
+	transition: .5s;
+}
+.btn2{
+	text-decoration: none;
+	background-color: #5ba533;
+	color: #fff;
+	font-size: 21px;
+	font-weight: 600;
+	display: inline-block;
+	border-radius: 6px;
+	padding: 13px 25px;
+	transition: .5s;
+	box-shadow: 3px 3px 27px -3px #5ba533;
+}
+/* hover part */
+.btn1:hover{
+	background-color: #5ba533;
+	color: #fff;
+	border: 2px solid transparent;
+	box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.btn2:hover{
+	background-color: #000;
+	color: #fff;
+	box-shadow: none;
+}
+
+footer p{
+	font-size: 20px;
 }
