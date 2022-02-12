@@ -162,18 +162,18 @@ a{
 }
 .target-box-text {
 	width: 60%;
-	padding: 30px 27px;
+	padding: 20px;
 }
 .target-box-text h3 {
 	font-size: 20px;
 	font-weight: 500;
-	padding: 16px 0;
+	padding: 10px 0;
 }
 
 .target-box-text p {
 	color: rgb(134, 134, 134);
 	font-size: 14px;
-	line-height: 26px;
+	line-height: 24px;
 }
 
 /* Image overly section */
@@ -299,7 +299,7 @@ a{
 	color: #67676721;
 	position: absolute;
 	top: 88px;
-	left: 613px;
+	left: 580px;
 }
 
 .id-hero img {
