@@ -1,0 +1,356 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header-Section */
+
+.btn-right{}
+.btn-right a{}
+.logo span {
+	font-size: 24px;
+	font-weight: 500;
+    transition: .4s;
+}
+.logo span:hover{
+    color: rgb(190, 190, 190);
+}
+.btn-right a {
+	color: #6278df;
+	border: 2px solid #6278df;
+	font-weight: 700;
+	font-size: 16px;
+}
+.btn-right a:hover {
+	background: #6278df;
+	border: 2px solid transparent;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/* Banner Section */
+
+.slider-section{
+    background: url("https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+    z-index: -1;
+}
+.slider-content{}
+.slider-content h3 {
+	font-size: 26px;
+	font-weight: 300;
+}
+.slider-content h1 {
+	font-size: 44px;
+	padding: 30px 0;
+	font-weight: 500;
+}
+.get{
+    background-color: #5ba533;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 12px 0;
+    border-radius: 6px;
+
+    transition: .4s;
+}
+.get:hover{
+    background-color: #fff;
+    color: #6278df;
+    border: 1px solid #6278df;
+    box-shadow: 3px 3px 27px #6278df;
+
+}
+.get-email {
+	padding: 12px 18px;
+    border-radius: 6px;
+}
+.get-email:focus{
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/*  Number Counter Section*/
+
+.N-counter {
+	padding: 70px 0;
+	background: #fff;
+}
+.number-counter{}
+.number-counter h1 {
+	font-size: 56px;
+}
+.number-counter p {
+	font-size: 20px;
+}
+
+/* Activity */
+
+.activity{
+    background-color: #f7f9ff;
+}
+.active-text {
+	padding: 89px 0;
+}
+.active-text h2 {
+	font-size: 42px;
+	padding-bottom: 29px;
+	font-weight: 500;
+}
+.active-text p {
+	font-size: 20px;
+	padding-right: 20px;
+	line-height: 35px;
+}
+
+/* Target Section */
+
+.target{
+}
+.target-title h1 {
+	font-size: 44px;
+	font-weight: 400;
+}
+.target-title p {
+	font-size: 25px;
+	color: #676767f0;
+	font-weight: 300;
+	padding-top: 20px;
+}
+.target-box{
+    border-radius: 0 6px 6px 0;
+    background-color: #fff;
+    height: 260px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(66, 91, 202, 0.191);
+    margin: 5px;
+}
+.target-box-hero{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 6px 0 0 6px;
+}
+.target-box-hero img {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	margin-left: -57px;
+}
+.target-box-text {
+	width: 60%;
+	padding: 30px 27px;
+}
+.target-box-text h3 {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 16px 0;
+}
+.target-box-text h1{}
+.target-box-text p {
+	color: rgb(134, 134, 134);
+	font-size: 14px;
+	line-height: 26px;
+}
+
+/* Image overly section */
+
+.image{}
+.look h2 {
+	font-size: 46px;
+	font-weight: 400;
+}
+.hero-box{
+    position: relative;
+    
+}
+
+.hero-box img{}
+.hero-box::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(68, 96, 219, 0.65);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    cursor: pointer;
+}
+.hero-box:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* User Plan Section */
+
+.plan{
+    background-color: #f7f9ff;
+}
+.plan-content{}
+.plan-content h1 {
+	font-size: 54px;
+	font-weight: 400;
+}
+.plan-content p {
+	font-size: 26px;
+	font-weight: 300;
+	color: #676767eb;
+	padding: 10px 0;
+}
+.plan-box{
+    background-color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    padding: 48px;
+    margin: 0 10px;
+    transition: .5s;
+}
+.plan-box h2 {
+	font-size: 43px;
+}
+.plan-box p {
+	font-size: 21px;
+	color: #848484;
+	font-weight: 300;
+	padding: 15px 0;
+}
+.plan-box ul {
+	list-style: none;
+	margin-left: -28px;
+}
+.plan-box ul li {
+	font-size: 20px;
+	line-height: 65px;
+	color: #6f6f6fdb;
+	font-weight: 300;
+}
+.plan-box ul li span {
+	font-size: 31px;
+	font-weight: 700;
+	display: inline-block;
+	margin-right: 11px;
+	color: #6278df;
+}
+.p-btn {
+	color: #6278df;
+	text-decoration: none;
+	padding: 16px 28px;
+	font-size: 20px;
+	font-weight: 600;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border-radius: 6px;
+    transition: .5s;
+}
+/* hover part */
+
+.plan-box:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.253);
+}
+.plan-box:hover .p-btn{
+    background-color: #6278df;
+    color: #fff;
+}
+.plan-btn .p-btn:hover{
+    background-color: #000;
+}
+
+
+/* User section */
+
+.f-user{
+    position: relative;
+}
+.f-user h4 {
+	font-size: 28px;
+	font-weight: 300;
+	color: #676767e8;
+}
+.f-user h1 {
+	font-size: 44px;
+	font-weight: 400;
+	padding: 17px 0;
+	padding-bottom: 85px;
+}
+.f-user span {
+	font-size: 90px;
+	color: #67676721;
+	position: absolute;
+	top: 88px;
+	left: 613px;
+}
+.id-hero{}
+.id-hero img {
+	border-radius: 50%;
+	margin-left: 75px;
+    margin-right: 10px;
+}
+.f-user p {
+	font-size: 20px;
+	width: 60%;
+	color: #00000082;
+	font-weight: 300;
+}
+
+/* Team */
+.team{
+    background-color: #f7f9ff;
+}
+.team-p{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.team-box {
+	background-color: #fff;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	padding: 0 33px;
+	position: relative;
+	padding-top: 100px;
+}
+.team-box img {
+	width: 126px;
+	position: absolute;
+	top: -69px;
+	left: 13px;
+	border-radius: 50%;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.team-box h2 {
+	font-size: 23px;
+	font-weight: 600;
+}
+.team-box p {
+	padding-bottom: 5px;
+	color: rgba(87, 87, 87, 0.83);
+	font-size: 14px;
+}
+.team-box a {
+	text-decoration: none;
+	display: inline-block;
+	color: #000;
+	background: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 6px;
+	margin: 10px 0;
+    margin-bottom: 26px;
+	transition: .4s;
+}
+.team-box a:hover{
+	background-color: #000;
+	color: #fff;
+}
